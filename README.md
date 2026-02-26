@@ -177,17 +177,6 @@ bash run_convfinre.sh
 
 ---
 
-## 🧪 Asset Simulation Tool
-
-👉 https://huggingface.co/spaces/TheFinAI/LetYourProfitsRun
-
----
-
-## 📝 User Study
-
-👉 https://forms.gle/igev4aKirigxpNYr6
-
----
 
 ## 📚 Citation
 
