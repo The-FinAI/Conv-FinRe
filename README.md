@@ -91,14 +91,17 @@ Unlike traditional benchmarks, Conv-FinRe evaluates the tension between **decisi
 
 ## ⚙️ Evaluation
 
-Conv-FinRe is integrated into the **FinBen evaluation framework**.
+Conv-FinRe is evaluated through **FinBen**, a financial-domain evaluation framework built on top of the  
+[LM Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness).
 
 ### Install FinBen
 
 ```bash
 git clone https://github.com/Yan2266336/FinBen
-cd FinBen
+cd FinBen/finlm_eval/
 pip install -e .
+pip install -e .[vllm]
+pip install -e .[api]
 ```
 
 ---
